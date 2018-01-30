@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-  Platform,
   TextInput,
   Text,
   ActivityIndicator,
@@ -14,8 +13,6 @@ import backImage from '../assets/images/back.png';
 
 
 export default class Verification extends Component {
-
-
   render() {
     this.state = { };
     return (
@@ -29,10 +26,12 @@ export default class Verification extends Component {
             <TextInput
               autoCorrect={false}
               placeholder='Your email address'
+              keyboardType='email-address'
               style={verificationScreenStyles.emailInputField}
               underlineColorAndroid="transparent"
             />
-            <ActivityIndicator style={verificationScreenStyles.activityIndicator} />
+            <ActivityIndicator
+              style={verificationScreenStyles.activityIndicator} />
           </View>
           <TouchableOpacity
             style={verificationScreenStyles.button}
