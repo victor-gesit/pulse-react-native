@@ -3,6 +3,6 @@ import App from './App';
 import Verification from './components/Verification';
 import Verify from './components/Verify';
 import OnboardingOne from './components/OnboardingOne';
+import OnboardingTwo from './components/OnboardingTwo';
 
-
-AppRegistry.registerComponent('PulseRN', () => OnboardingOne);
+AppRegistry.registerComponent('PulseRN', () => OnboardingTwo);
