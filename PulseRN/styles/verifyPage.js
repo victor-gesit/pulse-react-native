@@ -88,5 +88,13 @@ export default StyleSheet.create({
     marginBottom: 15,
     flexDirection: 'row',
     justifyContent: 'space-between'
+  },
+  footerContainer: {
+    backgroundColor: 'rgba(239, 241, 245, 0.74)',
+    marginLeft: 15,
+    marginRight: 15,
+    marginBottom: 15,
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   }
 });
