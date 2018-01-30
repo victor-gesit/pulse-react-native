@@ -8,9 +8,9 @@ export default StyleSheet.create({
     alignItems: 'center'
   },
   backImage: {
-    marginLeft: 24,
-    marginTop: 40,
-    backgroundColor: 'transparent'
+    left: 24,
+    top: 40,
+    zIndex: 1
   },
   button: {
     backgroundColor: 'rgb(4, 89, 228)',
@@ -18,6 +18,7 @@ export default StyleSheet.create({
     borderRadius: 27,
     borderWidth: 1,
     height: 54,
+    elevation: 1,
     marginTop: 40,
     paddingTop: 15,
     paddingBottom: 15,
@@ -71,11 +72,21 @@ export default StyleSheet.create({
     width: 310,
   },
   didNotReceiveCodeText: {
-    position: 'absolute',
-    left: 30,
-    bottom: 30,
     fontFamily: 'DINPro-Regular',
     fontSize: 20,
     color: 'rgba(0, 0, 0, 0.74)',
+  },
+  resendCodeButton: {
+    fontFamily: 'DINPro-Regular',
+    fontSize: 20,
+    textAlign: 'right'
+  },
+  footerContainer: {
+    backgroundColor: 'rgba(239, 241, 245, 0.74)',
+    marginLeft: 15,
+    marginRight: 15,
+    marginBottom: 15,
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   }
 });

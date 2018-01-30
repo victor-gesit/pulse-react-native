@@ -8,9 +8,9 @@ export default StyleSheet.create({
     alignItems: 'center'
   },
   backImage: {
-    marginLeft: 24,
-    marginTop: 40,
-    backgroundColor: 'transparent'
+    left: 24,
+    top: 40,
+    zIndex: 1
   },
   button: {
     backgroundColor: 'rgb(4, 89, 228)',
@@ -65,6 +65,7 @@ export default StyleSheet.create({
   },
   activityIndicator: {
     position: 'absolute',
+    opacity: 1,
     top: 22,
     right: 8,
     width: 20,

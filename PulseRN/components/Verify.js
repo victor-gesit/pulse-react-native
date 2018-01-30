@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {
   TextInput,
+  Button,
   Text,
   Image,
   TouchableOpacity,
@@ -60,8 +61,15 @@ export default class Verify extends Component {
             >
             <Text style={verifyScreenStyles.buttonText}>VERIFY</Text>
           </TouchableOpacity>
+        </View>
+        <View style={verifyScreenStyles.footerContainer} >
           <Text style={verifyScreenStyles.didNotReceiveCodeText}>
-            Didn't receive any code? </Text>
+              Didn't receive any code? </Text>
+          <Button
+            style={verifyScreenStyles.resendCodeButton}
+            onPress={ () => {} }
+            title="Resend"
+          />
         </View>
       </View>
     );
