@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   View
 } from 'react-native';
-import verificationScreenStyles from '../styles/verificationPage';
+import styles from '../styles/verificationPage';
 import containerStyles from '../styles/container';
 import backImage from '../assets/images/back.png';
 
@@ -17,27 +17,27 @@ export default class Verification extends Component {
     this.state = { };
     return (
       <View style={containerStyles.background}>
-        <Image source={backImage} style={verificationScreenStyles.backImage} />
-        <View style={verificationScreenStyles.container}>
-          <Text style={verificationScreenStyles.infoLabel}>
+        <Image source={backImage} style={styles.backImage} />
+        <View style={styles.container}>
+          <Text style={styles.infoLabel}>
             Enter your email address to receive a code to confirm your identity
           </Text>
-          <View style={verificationScreenStyles.emailInputContainer}>
+          <View style={styles.emailInputContainer}>
             <TextInput
               autoCorrect={false}
               placeholder='Your email address'
               keyboardType='email-address'
-              style={verificationScreenStyles.emailInputField}
+              style={styles.emailInputField}
               underlineColorAndroid="transparent"
             />
             <ActivityIndicator
-              style={verificationScreenStyles.activityIndicator} />
+              style={styles.activityIndicator} />
           </View>
           <TouchableOpacity
-            style={verificationScreenStyles.button}
+            style={styles.button}
             underlayColor='#fff'
             >
-            <Text style={verificationScreenStyles.buttonText}>SEND</Text>
+            <Text style={styles.buttonText}>SEND</Text>
           </TouchableOpacity>
         </View>
       </View>

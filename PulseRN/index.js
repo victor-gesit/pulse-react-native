@@ -6,5 +6,7 @@ import OnboardingOne from './components/OnboardingOne';
 import OnboardingTwo from './components/OnboardingTwo';
 import Developers from './components/Developers';
 import Completed from './components/Completed';
+import Search from './components/Search';
 
-AppRegistry.registerComponent('PulseRN', () => Completed);
+
+AppRegistry.registerComponent('PulseRN', () => Search);
