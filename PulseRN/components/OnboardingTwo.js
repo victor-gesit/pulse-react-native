@@ -12,7 +12,7 @@ import oval3 from '../assets/images/oval3.png';
 import oval3grey from '../assets/images/oval3grey.png';
 
 
-export default class OnboardingOne extends Component {
+export default class OnboardingTwo extends Component {
   render() {
     this.state = { };
     return (

@@ -4,5 +4,6 @@ import Verification from './components/Verification';
 import Verify from './components/Verify';
 import OnboardingOne from './components/OnboardingOne';
 import OnboardingTwo from './components/OnboardingTwo';
+import Developers from './components/Developers';
 
-AppRegistry.registerComponent('PulseRN', () => OnboardingTwo);
+AppRegistry.registerComponent('PulseRN', () => Developers);
