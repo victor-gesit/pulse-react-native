@@ -52,7 +52,8 @@ export default class Verification extends Component {
             <FlatList
               style={ { height: listHeight }}
               data={results}
-              renderItem={({ item }) => <SearchResult developer={ item }></SearchResult>}
+              renderItem={({ item }) => <SearchResult developer={ item }>
+                </SearchResult>}
             />
       </View>
     );

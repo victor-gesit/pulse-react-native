@@ -7,6 +7,7 @@ import OnboardingTwo from './components/OnboardingTwo';
 import Developers from './components/Developers';
 import Completed from './components/Completed';
 import Search from './components/Search';
+import Settings from './components/Settings';
 
 
-AppRegistry.registerComponent('PulseRN', () => Search);
+AppRegistry.registerComponent('PulseRN', () => Settings);
