@@ -31,9 +31,9 @@ export default StyleSheet.create({
   },
   footerContainer: {
     backgroundColor: 'rgba(239, 241, 245, 0.74)',
-    marginLeft: 15,
-    marginRight: 15,
-    marginBottom: 15,
+    marginLeft: 30,
+    marginRight: 30,
+    marginBottom: 30,
     flexDirection: 'row',
     justifyContent: 'space-between'
   },

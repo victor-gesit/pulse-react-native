@@ -5,7 +5,7 @@ import {
   TouchableOpacity,
   View
 } from 'react-native';
-import onboardingTwoStyles from '../styles/onboardingTwo';
+import styles from '../styles/onboardingTwo';
 import containerStyles from '../styles/container';
 import artwork2 from '../assets/images/artwork2.png';
 import oval3 from '../assets/images/oval3.png';
@@ -17,23 +17,23 @@ export default class OnboardingTwo extends Component {
     this.state = { };
     return (
       <View style={containerStyles.background}>
-        <View style={onboardingTwoStyles.container}>
-          <Image source={artwork2} style={onboardingTwoStyles.artwork} />
-          <Text style={onboardingTwoStyles.easyCheckInLabel}>
+        <View style={styles.container}>
+          <Image source={artwork2} style={styles.artwork} />
+          <Text style={styles.easyCheckInLabel}>
             Easy Check-in
           </Text>
-          <Text style={onboardingTwoStyles.tapToRateLabel}>
+          <Text style={styles.tapToRateLabel}>
             At Andela, your feedback matters.
             We want to hear what you think
           </Text>
         </View>
-          <View style={onboardingTwoStyles.footerContainer} >
-            <View style={onboardingTwoStyles.ovalShapesContainer}>
+          <View style={styles.footerContainer} >
+            <View style={styles.ovalShapesContainer}>
               <Image source={oval3grey}/>
               <Image source={oval3}/>
             </View>
-            <TouchableOpacity style={onboardingTwoStyles.getStartedButton}>
-                <Text style={onboardingTwoStyles.getStartedButtonText}>
+            <TouchableOpacity style={styles.getStartedButton}>
+                <Text style={styles.getStartedButtonText}>
                   GET STARTED</Text>
             </TouchableOpacity>
           </View>
