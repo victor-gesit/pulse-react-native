@@ -5,5 +5,6 @@ import Verify from './components/Verify';
 import OnboardingOne from './components/OnboardingOne';
 import OnboardingTwo from './components/OnboardingTwo';
 import Developers from './components/Developers';
+import Completed from './components/Completed';
 
-AppRegistry.registerComponent('PulseRN', () => Developers);
+AppRegistry.registerComponent('PulseRN', () => Completed);
