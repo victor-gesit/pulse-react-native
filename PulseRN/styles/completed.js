@@ -12,7 +12,7 @@ export default StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'center'
   },
-  backImage: {
+  backButton: {
     left: 24,
     top: 40,
     zIndex: 1

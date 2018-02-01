@@ -8,6 +8,7 @@ import Developers from './components/Developers';
 import Completed from './components/Completed';
 import Search from './components/Search';
 import Settings from './components/Settings';
+import Rating from './components/Rating';
 
 
-AppRegistry.registerComponent('PulseRN', () => Settings);
+AppRegistry.registerComponent('PulseRN', () => Rating);
