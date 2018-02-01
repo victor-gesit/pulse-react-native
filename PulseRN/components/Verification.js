@@ -17,7 +17,9 @@ export default class Verification extends Component {
     this.state = { };
     return (
       <View style={containerStyles.background}>
-        <Image source={backImage} style={styles.backImage} />
+        <TouchableOpacity style={styles.backButton} >
+          <Image source={backImage}/>
+        </TouchableOpacity>
         <View style={styles.container}>
           <Text style={styles.infoLabel}>
             Enter your email address to receive a code to confirm your identity

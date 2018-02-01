@@ -14,7 +14,9 @@ export default class Verification extends Component {
     this.state = { };
     return (
       <View style={styles.background}>
-        <Image source={backImage} style={styles.backImage} />
+        <TouchableOpacity style={styles.backButton} >
+        <Image source={backImage}/>
+        </TouchableOpacity>
         <View style={styles.container}>
           <Text style={styles.thankyouLabel}>
             Thank you for giving us insights that really matter :)

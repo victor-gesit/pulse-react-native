@@ -17,7 +17,9 @@ export default class Verify extends Component {
     this.state = { };
     return (
       <View style={containerStyles.background}>
-        <Image source={backImage} style={verifyScreenStyles.backImage} />
+        <TouchableOpacity style={verifyScreenStyles.backButton}>
+          <Image source={backImage}/>
+        </TouchableOpacity>
         <View style={verifyScreenStyles.container}>
           <Text style={verifyScreenStyles.infoLabel}>
             Enter the 4 digit code sent to your email
